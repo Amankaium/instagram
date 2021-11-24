@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.post {
+    width: 1100px;
+    height: 2000px;
+}
+.post__header {
+ margin: 200px;
+ padding-left: 3px;
+ padding-top: 2.5px;
+ height: 35px;
+ width: 35px;
+}
+
+img {
+ border: 2px solid black;
+ border-radius: 50%; 
+}
+
+span {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
