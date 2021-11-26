@@ -2,12 +2,9 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    
 }
 .header{
-    /* display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center; */
     height:60px;
     width:100vw;
     display:grid;
@@ -21,4 +18,25 @@
     align-items: center;
     align-content: center;
 
+}
+.stories{
+    display:grid;
+    width:100vw;
+    height:70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.item{
+    border:1px solid black;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    
+}
+.post{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height:250px;
+    width:400px;
 }
