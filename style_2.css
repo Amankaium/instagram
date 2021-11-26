@@ -3,24 +3,14 @@
 	padding: 0 10px;
 	box-sizing: border-box;
 }
-.header-instagram {
+
+.container {
+	height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	border: 1px solid black;
-	height: 100px;
+	grid-template-rows: 100px 500px 200px;
 }
-.body-instagram {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	border: 1px solid black;
-	height: 500px;
-}
-.footer-instagram {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	border: 1px solid black;
-	height: 200px;
+.section {
+	border: 1px solid #000;
+	width: 100%;
 }
