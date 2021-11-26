@@ -1,0 +1,26 @@
+* {
+	margin: 10px auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.header-instagram {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	border: 1px solid black;
+	height: 100px;
+}
+.body-instagram {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	border: 1px solid black;
+	height: 500px;
+}
+.footer-instagram {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	border: 1px solid black;
+	height: 200px;
+}
