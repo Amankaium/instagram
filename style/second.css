@@ -1,0 +1,86 @@
+/* .conic-gradient:after {
+    display: block;
+    border-radius: 9999px;
+    content: '';
+    width: 108%;
+    height: 108%;
+    position: absolute;
+    z-index: -1;
+    left: -4%;
+    top: -4%;
+    background-image: conic-gradient(#00AEEF, #fff, #00AEEF, #fff, #00AEEF);
+    animation: spin 5s linear infinite;
+  }
+  
+  @keyframes spin { 
+    100% { 
+      transform: rotate(360deg);
+    }
+  } */
+
+
+
+
+  * {
+      padding:0;
+      margin:0;
+      list-style: none;
+      text-transform: none;
+  }
+
+
+
+.main ul {
+    display:flex;
+}
+
+.main ul li a img{
+    display: flex;
+    height:100px;
+    width: 100px;
+    border-radius: 180px;
+    transition: .6s ease-in-out;
+}
+
+
+.main ul li {
+    margin-right: 20px;
+}
+
+.main ul li a{
+    display: block;
+    background-color: white;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.story {
+    position: relative;
+    background: linear-gradient(45deg, gold, fuchsia);
+    padding: 4px;
+    border-radius: 100%;
+}
+
+button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    bottom:0;
+    right: 0.25rem;
+    text-align: center;
+    border-radius: 100%;
+    color:white;
+    font-size: 16px;
+    border: solid 3px white;
+}
+
+.main ul li span {
+    color: rgb(255, 255, 255. .83);
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
