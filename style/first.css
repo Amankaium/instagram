@@ -11,14 +11,65 @@
     height:60px;
     width:100vw;
     display:grid;
-    grid-template-columns: 180px 250px 1fr;
+    grid-template-columns: 350px 450px 1fr;
     grid-template-rows: 60px;
     align-items: center;
+    background-color: #fffffffd;
+    border:1px solid rgb(221, 217, 217);
 }
 .icons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     align-content: center;
-
+    justify-content: end;
+}
+.stories{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #fffffffd;
+    border:1px solid rgb(221, 217, 217);
+    height:90px;
+    width:100vw;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 85px; 
+}
+.item{
+    border:1px solid red;
+    border-radius: 50%;
+    height:60px;
+    width:60px;
+}
+.post{
+    height:450px;
+    width:100vw;
+    border:1px solid rgb(221, 217, 217);
+    margin-left: 85px;
+}
+.logo{
+    text-align: center;
+}
+.search{
+    text-align:start;
+}
+.post-header{
+    display:flex; 
+    border: 1px solid rgb(221, 217, 217);
+    height:40px;
+    align-items: center;
+     
+}
+.user-photo{
+    border:1px solid red;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    display:flex;
+    margin-left: 10px;
+}
+.username{
+    margin-left: 10px;
 }
