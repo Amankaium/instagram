@@ -7,8 +7,7 @@
   .post {
     width: 600px;
     min-height: 1000px;
-<<<<<<< HEAD
-    background-color: aquamarine;
+    border: 1px solid gray;
     margin: 0 auto;
   }
  .post__description{
@@ -46,7 +45,6 @@
 
 
   
-=======
     margin: 0 auto;
   }
   .post__form {
@@ -89,4 +87,3 @@
   .post__form__btn > button:hover {
       opacity: 1.0;
   }
->>>>>>> e03832bd627a868f9e610f128e2f2cb347a98759
