@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_conteiner {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 800px;
+}
+.logo_box, .text_box{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+}
