@@ -97,6 +97,9 @@
 /* Айя end */
 
 /* Елена start */
+.post__text{
+    background-color: #fff;
+}
 .post__description {
 	padding-left: 16px;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
