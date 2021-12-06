@@ -52,3 +52,26 @@ input {
     background-size: 10px auto;
     background-position: 2% 50%;
 }
+
+.home img {
+    height: 20px;
+}
+
+.direct img {
+    height: 30px;
+}
+.add img{
+    height: 20px;
+}
+
+.compas img{
+    height: 20px;
+}
+
+.likes img {
+    height: 30px;
+}
+
+.user img {
+    height: 35px;
+}
