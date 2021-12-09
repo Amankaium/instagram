@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+.post {
+	background-color: white;
+	border: 1px solid lightgray;
+}
 .post__container {
 	width: 600px;
 	min-height: 1000px;
@@ -137,7 +141,8 @@
 	width: 100%;
 	height: 50px;
 	display: flex;
-	border: 1px solid rgb(228, 226, 226);
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
 }
 .post__form__emoji {
 	width: 50px;
